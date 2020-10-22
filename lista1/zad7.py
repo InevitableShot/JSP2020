@@ -2,4 +2,4 @@
 a=4
 b=9
 a+b #do zmiennej _ trafia wynik
-# _   wyświetla 13
+# wywolanie   _   wyświetla 13
