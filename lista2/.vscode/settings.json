@@ -1,7 +1,0 @@
-{
-    "python.pythonPath": "/bin/python3",
-    
-    "vscode_custom_css.imports": ["file:///C:/Users/windo/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.12/synthwave-x-fluoromachine.css"],
-    
-    "vscode_custom_css.policy": true,
-}
