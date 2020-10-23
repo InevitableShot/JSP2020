@@ -1,0 +1,15 @@
+list = ['Kasia', 'Basia', 'Marek', 'Darek']
+list.append('Józek')
+print(list)
+list.extend(['Ania', 'Basia'])
+print(list)
+list.sort()
+print(list)
+print(list[3])
+print(list[:2])
+print(list[-2:])
+list.remove()
+print(list)
+print(len(list))
+print(tuple(list))
+
