@@ -16,4 +16,4 @@ while i < (len(list)-1):
         i += 1
 print(list)
 print(len(list))
-print(tuple(list))|
+print(tuple(list))
