@@ -12,5 +12,5 @@ else:
     elif delta < 0:
         print("Ta funkcja nie ma miejsc zerowych")
     else:
-        print(f"x1 = {(-b)-(math.sqrt(delta))/(2*a)} ")
-        print(f"x2 = {(-b)+(math.sqrt(delta))/(2*a)} ")
+        print(f"x1 = {((-b)-(math.sqrt(delta)))/(2*a)} ")
+        print(f"x2 = {((-b)+(math.sqrt(delta)))/(2*a)} ")
