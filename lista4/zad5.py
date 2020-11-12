@@ -1,2 +1,2 @@
 from itertools import permutations
-print(*(permutations([1,2,3])))
+print(*permutations([1,2,3]))
