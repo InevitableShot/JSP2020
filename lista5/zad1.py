@@ -10,16 +10,17 @@ digit = {
     "dziewięć": 9
 }
 
+
 def word_to_number(d, j=""):
-    l1=0
-    l2=0
-    if(d in digits):
-        l1=(digits.get(d))
-    if(j in digit):
-        l2=(digit.get(j))
+    l1 = 0
+    l2 = 0
+    if d in digits:
+        l1 = digits.get(d)
+    if j in digit:
+        l2 = digit.get(j)
     print(l1+l2)
 
-number = input()
+
+number = input("Podaj liczbe od 0 do 59 (slownie): ")
 n1 = number.split()
-n1.append(0)
 word_to_number(n1[0], n1[1])

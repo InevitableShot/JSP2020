@@ -1,14 +1,12 @@
-roman = {1000: "M", 980: "CM", 500: "D", 400: "CD", 100: "C", 90: "XC", 50: "L", 40: "XL", 10: "X", 9: "IX", 5: "V", 4: "IV", 1: "I"}
+def rom_to_num(s):
+    roman = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+    number = roman[s[len(s)-1]]
+    for i in range(len(s)-1, 0, -1):
+        current = roman[s[i]]
+        prev = roman[s[i-1]]
+        number += prev if prev >= current else -prev
+    return number
 
-x = int(input("Podaj liczbe calkowita: "))
-print("Liczba ", str(x), " w notacji rzymskiej to: ")
-r = list(roman.keys())
-r.sort()
-r.reverse()
-print(r)
-lr = ""
-for i in r:
-    while i <= x:
-        lr += roman[i]
-        x -= i
-print(lr)
+
+print(rom_to_num("MDCCLI"))
+print(rom_to_num("MMCMLIII"))
