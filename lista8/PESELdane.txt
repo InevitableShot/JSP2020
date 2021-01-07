@@ -1,0 +1,20 @@
+nr PESEL: 38060880689
+data urodzenia: 08-06-1938; 	 płeć: kobieta
+nr PESEL: 56073145586
+data urodzenia: 31-07-1956; 	 płeć: kobieta
+nr PESEL: 85321397774
+data urodzenia: 13-12-2085; 	 płeć: mężczyzna
+nr PESEL: 40240335346
+data urodzenia: 03-04-2040; 	 płeć: kobieta
+nr PESEL: 85301411458
+data urodzenia: 14-10-2085; 	 płeć: mężczyzna
+nr PESEL: 30232911605
+data urodzenia: 29-03-2030; 	 płeć: kobieta
+nr PESEL: 12121133877
+data urodzenia: 11-12-1912; 	 płeć: mężczyzna
+nr PESEL: 84062220233
+data urodzenia: 22-06-1984; 	 płeć: mężczyzna
+nr PESEL: 97100522112
+data urodzenia: 05-10-1997; 	 płeć: mężczyzna
+nr PESEL: 25290784708
+data urodzenia: 07-09-2025; 	 płeć: kobieta
