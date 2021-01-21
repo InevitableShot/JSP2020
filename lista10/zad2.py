@@ -1,9 +1,11 @@
+from itertools import combinations
+
+
 class Lists:
     def __init__(self, tab):
         self.tab = tab
 
     def make_sublists(self):
-        from itertools import combinations
         sublists = []
         for items in range(0, len(self.tab)+1):
             sublists.extend([list(item)

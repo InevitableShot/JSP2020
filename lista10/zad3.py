@@ -1,10 +1,12 @@
+from itertools import combinations
+from math import fsum
+
+
 class Lists:
     def __init__(self, tab):
         self.tab = tab
 
     def find_triple_sublists_equaled_zero(self):
-        from itertools import combinations
-        from math import fsum
         if len(self.tab) < 3:
             return "Lista jest zbyt krótka do wykonania tej metody."
         else:
