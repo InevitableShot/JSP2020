@@ -1,5 +1,5 @@
 class Kolo:
-    def __init__(self,promien):
+    def __init__(self, promien):
         self.promien = promien
 
     def pole(self):
