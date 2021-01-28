@@ -1,5 +1,5 @@
 from itertools import combinations
-from math import fsum
+from math import isclose
 
 
 class Lists:
@@ -11,7 +11,7 @@ class Lists:
             return "Lista jest zbyt krótka do wykonania tej metody."
         else:
             sublists = [list(item) for item in combinations(
-                self.tab, 3) if fsum(item) == 0]
+                self.tab, 3) if isclose(sum(item), 0, abs_tol=0.0)]
             return "Ta lista nie posiada podlist spełniających warunek." if len(sublists) == 0 else sublists
 
 
